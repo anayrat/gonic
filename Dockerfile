@@ -1,15 +1,9 @@
 FROM golang:1.12-alpine AS builder
 WORKDIR /src
 COPY . .
-RUN apk add -U --no-cache \
-        build-base \
-        ca-certificates \
-        git \
-        sqlite \
-        taglib-dev && \
-    ./_do_build_server && \
-    ./_do_build_scanner && \
-    apk del build-base
+RUN apk add -U --no-cache build-base ca-certificates git sqlite taglib-dev
+RUN ./_do_build_server
+RUN ./_do_build_scanner 
 
 FROM alpine
 COPY --from=builder \

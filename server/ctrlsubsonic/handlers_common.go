@@ -65,6 +65,9 @@ func (c *Controller) ServeScrobble(r *http.Request) *spec.Response {
 	if err != nil {
 		log.Printf("error while submitting to lastfm: %v\n", err)
 	}
+	if parsing.GetStrParam(r, "submission") != "false" {
+		return spec.NewResponse()
+	}
 	err = funk.Funk(funk.FunkOptions{
 		BaseURL:  c.DB.GetSetting("funk_node"),
 		Username: user.FunkPassword,
