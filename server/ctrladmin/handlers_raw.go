@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/sessions"
 
-	"senan.xyz/g/gonic/server/key"
+	"github.com/sentriz/gonic/server/key"
 )
 
 func (c *Controller) ServeLoginDo(w http.ResponseWriter, r *http.Request) {

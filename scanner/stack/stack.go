@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"senan.xyz/g/gonic/model"
+	"github.com/sentriz/gonic/model"
 )
 
 type item struct {

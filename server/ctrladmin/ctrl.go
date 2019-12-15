@@ -16,11 +16,11 @@ import (
 	"github.com/oxtoacart/bpool"
 	"github.com/wader/gormstore"
 
-	"senan.xyz/g/gonic/assets"
-	"senan.xyz/g/gonic/model"
-	"senan.xyz/g/gonic/server/ctrlbase"
-	"senan.xyz/g/gonic/server/key"
-	"senan.xyz/g/gonic/version"
+	"github.com/sentriz/gonic/assets"
+	"github.com/sentriz/gonic/model"
+	"github.com/sentriz/gonic/server/ctrlbase"
+	"github.com/sentriz/gonic/server/key"
+	"github.com/sentriz/gonic/version"
 )
 
 func init() {

@@ -1,6 +1,6 @@
 package spec
 
-import "senan.xyz/g/gonic/model"
+import "github.com/sentriz/gonic/model"
 
 func NewPlaylist(p *model.Playlist) *Playlist {
 	return &Playlist{

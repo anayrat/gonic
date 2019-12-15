@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"senan.xyz/g/gonic/db"
-	"senan.xyz/g/gonic/scanner"
+	"github.com/sentriz/gonic/db"
+	"github.com/sentriz/gonic/scanner"
 )
 
 type statusWriter struct {

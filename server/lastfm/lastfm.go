@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"senan.xyz/g/gonic/model"
+	"github.com/sentriz/gonic/model"
 )
 
 var (

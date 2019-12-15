@@ -9,12 +9,12 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"senan.xyz/g/gonic/model"
-	"senan.xyz/g/gonic/scanner"
-	"senan.xyz/g/gonic/server/ctrlsubsonic/spec"
-	"senan.xyz/g/gonic/server/key"
-	"senan.xyz/g/gonic/server/lastfm"
-	"senan.xyz/g/gonic/server/parsing"
+	"github.com/sentriz/gonic/model"
+	"github.com/sentriz/gonic/scanner"
+	"github.com/sentriz/gonic/server/ctrlsubsonic/spec"
+	"github.com/sentriz/gonic/server/key"
+	"github.com/sentriz/gonic/server/lastfm"
+	"github.com/sentriz/gonic/server/parsing"
 )
 
 func lowerUDecOrHash(in string) string {

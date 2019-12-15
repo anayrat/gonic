@@ -9,7 +9,7 @@ import (
 	"github.com/jinzhu/gorm"
 	"github.com/pkg/errors"
 
-	"senan.xyz/g/gonic/model"
+	"github.com/sentriz/gonic/model"
 )
 
 func playlistParseLine(c *Controller, playlistID int, path string) error {

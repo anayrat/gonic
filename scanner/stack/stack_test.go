@@ -3,7 +3,7 @@ package stack
 import (
 	"testing"
 
-	"senan.xyz/g/gonic/model"
+	"github.com/sentriz/gonic/model"
 )
 
 func TestFolderStack(t *testing.T) {

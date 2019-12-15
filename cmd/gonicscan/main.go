@@ -8,8 +8,8 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/peterbourgon/ff"
 
-	"senan.xyz/g/gonic/db"
-	"senan.xyz/g/gonic/scanner"
+	"github.com/sentriz/gonic/db"
+	"github.com/sentriz/gonic/scanner"
 )
 
 const (

@@ -10,9 +10,9 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/peterbourgon/ff"
 
-	"senan.xyz/g/gonic/db"
-	"senan.xyz/g/gonic/server"
-	"senan.xyz/g/gonic/version"
+	"github.com/sentriz/gonic/db"
+	"github.com/sentriz/gonic/server"
+	"github.com/sentriz/gonic/version"
 )
 
 const (

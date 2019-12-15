@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"senan.xyz/g/gonic/model"
-	"senan.xyz/g/gonic/scanner"
-	"senan.xyz/g/gonic/server/key"
-	"senan.xyz/g/gonic/server/lastfm"
+	"github.com/sentriz/gonic/model"
+	"github.com/sentriz/gonic/scanner"
+	"github.com/sentriz/gonic/server/key"
+	"github.com/sentriz/gonic/server/lastfm"
 )
 
 func (c *Controller) ServeNotFound(r *http.Request) *Response {

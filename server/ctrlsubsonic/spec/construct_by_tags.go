@@ -3,7 +3,7 @@ package spec
 import (
 	"path"
 
-	"senan.xyz/g/gonic/model"
+	"github.com/sentriz/gonic/model"
 )
 
 func NewAlbumByTags(a *model.Album, artist *model.Artist) *Album {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/sessions"
 
-	"senan.xyz/g/gonic/model"
-	"senan.xyz/g/gonic/server/key"
+	"github.com/sentriz/gonic/model"
+	"github.com/sentriz/gonic/server/key"
 )
 
 func (c *Controller) WithSession(next http.Handler) http.Handler {

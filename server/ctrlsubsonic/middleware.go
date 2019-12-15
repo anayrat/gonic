@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"senan.xyz/g/gonic/server/ctrlsubsonic/spec"
-	"senan.xyz/g/gonic/server/key"
-	"senan.xyz/g/gonic/server/parsing"
+	"github.com/sentriz/gonic/server/ctrlsubsonic/spec"
+	"github.com/sentriz/gonic/server/key"
+	"github.com/sentriz/gonic/server/parsing"
 )
 
 var requiredParameters = []string{

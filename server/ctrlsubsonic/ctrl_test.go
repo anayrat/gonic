@@ -12,8 +12,8 @@ import (
 
 	jd "github.com/josephburnett/jd/lib"
 
-	"senan.xyz/g/gonic/db"
-	"senan.xyz/g/gonic/server/ctrlbase"
+	"github.com/sentriz/gonic/db"
+	"github.com/sentriz/gonic/server/ctrlbase"
 )
 
 var (

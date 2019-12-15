@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"senan.xyz/g/gonic/server/ctrlbase"
-	"senan.xyz/g/gonic/server/ctrlsubsonic/spec"
-	"senan.xyz/g/gonic/server/parsing"
+	"github.com/sentriz/gonic/server/ctrlbase"
+	"github.com/sentriz/gonic/server/ctrlsubsonic/spec"
+	"github.com/sentriz/gonic/server/parsing"
 )
 
 type Controller struct {
